@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+  
+  {% block head %}
+
+  <title>Gym Manager</title>
+
+  {% endblock %}
+
+  <link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="links">
+      <a href="/" class="active">Instructors</a>
+      <a href="/portfolio">Members</a>
+    </div>
+  </header>
+
+  {% block content %}
+  {% endblock %}
+
+</body>
+
+</html>
