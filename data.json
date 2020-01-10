@@ -1,1 +1,31 @@
-{"avatar_url":"http://googl.com","name":"cas","birth":"0001-01-01","gender":"M","services":"git"}
+{
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "http://google.co",
+      "name": "Cassia",
+      "birth": 659145600000,
+      "gender": "F",
+      "services": "crossfit",
+      "created_at": 1578657879258
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://google.com",
+      "name": "cassia",
+      "birth": -126230400000,
+      "gender": "F",
+      "services": "ypga",
+      "created_at": 1578662500439
+    },
+    {
+      "id": 3,
+      "avatar_url": "http://erica.com",
+      "name": "erica",
+      "birth": 819331200000,
+      "gender": "F",
+      "services": "crossfit",
+      "created_at": 1578663080293
+    }
+  ]
+}
