@@ -11,15 +11,19 @@ exports.show = function(req, res) {
 
   if (!findInstructor) return res.send('Instructor not found!')
 
+  function age(timestamp){
+    const today = new Date()
+    const birthDate = new Date(timestamp)
+  }
+
   const instructor = {
     ...findInstructor,
-    age: "",
-    gender: "",
+    age: age(findInstructor.birth),
     services: findInstructor.services.split(","),
     created_at: ""
   }
 
-  return res.render("instructors/show", { instructor: findInstructor })
+  return res.render("instructors/show", { instructor: instructor })
 }
 
 // create
