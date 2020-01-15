@@ -26,6 +26,15 @@
       "gender": "F",
       "services": "crossfit",
       "created_at": 1578663080293
+    },
+    {
+      "id": 4,
+      "avatar_url": "http://google.com",
+      "name": "Erica",
+      "birth": 819331200000,
+      "gender": "F",
+      "services": "crossfit",
+      "created_at": 1579020931449
     }
   ]
 }
