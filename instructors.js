@@ -2,7 +2,7 @@ const fs = require('fs')
 const data = require('./data.json')
 const { age } = require('./utils')
 
-//show
+// show
 exports.show = function(req, res) {
   const { id } = req.params
 
@@ -58,5 +58,21 @@ exports.post = function(req, res) {
   
     // return res.send(req.body)
   }
+
+// edit
+exports.edit = function(req, res) {
+
+  const { id } = req.params
+
+  const findInstructor = data.instructors.find(function(instructor) {
+    return id == instructor.id
+  })
+
+  if (!findInstructor) return res.send('Instructor not found!')
+
+  return res.render('instructors/edit', {instructor: findInstructor})
+}
+
+
 
   

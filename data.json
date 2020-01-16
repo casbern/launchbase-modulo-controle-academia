@@ -3,7 +3,7 @@
     {
       "id": 1,
       "avatar_url": "http://google.co",
-      "name": "Cassia",
+      "name": "Cassia Cristina",
       "birth": 659145600000,
       "gender": "F",
       "services": "crossfit",
@@ -12,16 +12,16 @@
     {
       "id": 2,
       "avatar_url": "http://google.com",
-      "name": "cassia",
+      "name": "Cassia",
       "birth": -126230400000,
       "gender": "F",
-      "services": "ypga, jump, alegria",
+      "services": "yoga, jump, jiu-jitsu",
       "created_at": 1578662500439
     },
     {
       "id": 3,
       "avatar_url": "http://erica.com",
-      "name": "erica",
+      "name": "Erica Lais",
       "birth": 819331200000,
       "gender": "F",
       "services": "crossfit",
