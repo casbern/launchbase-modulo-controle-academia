@@ -1,21 +1,50 @@
 {
   "instructors": [
     {
-      "id": 1,
-      "avatar_url": "http://google.co",
-      "name": "Cassia Cristina",
+      "id": "1",
+      "avatar_url": "http://google.com",
+      "name": "Cassia Bernardo",
       "birth": 659145600000,
       "gender": "F",
-      "services": "crossfit",
+      "services": "crossfit, pilates, yoga",
       "created_at": 1578657879258
     },
     {
-      "id": 2,
+      "id": "2",
       "avatar_url": "http://google.com",
-      "name": "Cassia",
+      "name": "Claudia Bernardo",
       "birth": -126230400000,
       "gender": "F",
-      "services": "yoga, jump, jiu-jitsu",
+      "services": "pilates",
+      "created_at": 1578662500439
+    },
+    {
+      "id": 3,
+      "avatar_url": "http://erica.com",
+      "name": "Erica Lais",
+      "birth": 819331200000,
+      "gender": "F",
+      "services": "crossfit",
+      "created_at": 1578663080293
+    },
+    {
+      "id": 4,
+      "avatar_url": "http://google.com",
+      "name": "Erica",
+      "birth": 819331200000,
+      "gender": "F",
+      "services": "crossfit",
+      "created_at": 1579020931449
+    }
+  ],
+  "instructor": [
+    {
+      "id": "2",
+      "avatar_url": "http://google.com",
+      "name": "Claudia Bernardo",
+      "birth": -126230400000,
+      "gender": "F",
+      "services": "pilates",
       "created_at": 1578662500439
     },
     {
