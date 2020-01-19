@@ -6,27 +6,6 @@ exports.index = function(req, res) {
   return res.render('instructors/index', { instructors: data.instructors })
 }
 
-// show
-exports.show = function(req, res) {
-  const { id } = req.params
-
-  const findInstructor = data.instructors.find(function(instructor) {
-    return id == instructor.id
-  })
-
-  if (!findInstructor) return res.send('Instructor not found!')
-
-  
-  const instructor = {
-    ...findInstructor,
-    age: age(findInstructor.birth),
-    services: findInstructor.services.split(","),
-    created_at: new Intl.DateTimeFormat("pt-BR").format(findInstructor.created_at)
-  }
-
-  return res.render("instructors/show", { instructor: instructor })
-}
-
 exports.create = function(req, res) {
   return res.render('instructors/create')
 }
@@ -65,7 +44,28 @@ exports.post = function(req, res) {
   
   
     // return res.send(req.body)
+}
+
+// show
+exports.show = function(req, res) {
+  const { id } = req.params
+
+  const findInstructor = data.instructors.find(function(instructor) {
+    return id == instructor.id
+  })
+
+  if (!findInstructor) return res.send('Instructor not found!')
+
+  
+  const instructor = {
+    ...findInstructor,
+    age: age(findInstructor.birth),
+    services: findInstructor.services.split(","),
+    created_at: new Intl.DateTimeFormat("pt-BR").format(findInstructor.created_at)
   }
+
+  return res.render("instructors/show", { instructor: instructor })
+}
 
 // edit
 exports.edit = function(req, res) {
@@ -80,7 +80,7 @@ exports.edit = function(req, res) {
 
   const instructor = {
     ...findInstructor,
-    birth: date(findInstructor.birth)
+    birth: date(findInstructor.birth).iso
   } 
 
   return res.render('instructors/edit', { instructor })

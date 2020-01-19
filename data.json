@@ -1,5 +1,17 @@
 {
-  "members": [],
+  "members": [
+    {
+      "avatar_url": "htttp://google.com",
+      "name": "Francisco",
+      "email": "chico@gmail.com",
+      "birth": -360374400000,
+      "gender": "M",
+      "blood": "A-",
+      "weight": "100",
+      "height": "170",
+      "id": 1
+    }
+  ],
   "instructors": [
     {
       "id": 1,
@@ -37,5 +49,6 @@
       "services": "crossfit",
       "created_at": 1579020931449
     }
-  ]
+  ],
+  "member": []
 }
