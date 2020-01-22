@@ -91,9 +91,7 @@ exports.edit = function (req, res) {
     birth: date(findMember.birth).iso
   }
 
-  return res.render('members/edit', {
-    member
-  })
+  return res.render('members/edit', {member})
 }
 
 //put
