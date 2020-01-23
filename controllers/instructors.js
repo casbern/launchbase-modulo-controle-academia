@@ -124,7 +124,7 @@ exports.delete = function(req, res) {
     return instructor.id != id
   })
 
-  data.instructor = filteredInstructors
+  data.instructors = filteredInstructors
 
   fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
     if(err) return res.send("Write file error.")

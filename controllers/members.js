@@ -136,7 +136,7 @@ exports.delete = function (req, res) {
     return member.id != id
   })
 
-  data.member = filteredmembers
+  data.members = filteredmembers
 
   fs.writeFile("data.json", JSON.stringify(data, null, 2), function (err) {
     if (err) return res.send("Write file error.")

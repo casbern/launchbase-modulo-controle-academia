@@ -1,37 +1,10 @@
 {
   "instructors": [
     {
-      "id": 1,
-      "avatar_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-      "name": "Cassia Bernardo",
-      "birth": 659145600000,
-      "gender": "F",
-      "services": "crossfit, pilates, yoga",
-      "created_at": 1578657879258
-    },
-    {
-      "id": 2,
-      "avatar_url": "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-      "name": "Claudia Bernardo",
-      "birth": -126230400000,
-      "gender": "F",
-      "services": "pilates",
-      "created_at": 1578662500439
-    },
-    {
-      "id": 3,
-      "avatar_url": "https://images.unsplash.com/photo-1528415784548-1850e0fc8c57?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-      "name": "Erica Lais",
-      "birth": 819331200000,
-      "gender": "F",
-      "services": "crossfit",
-      "created_at": 1578663080293
-    },
-    {
       "id": 4,
       "avatar_url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      "name": "Erica",
-      "birth": 819331200000,
+      "name": "Aurora",
+      "birth": 1293753600000,
       "gender": "F",
       "services": "crossfit",
       "created_at": 1579020931449
@@ -44,19 +17,6 @@
       "gender": "M",
       "services": "Jiu-jitsu, corrida",
       "created_at": 1579569657277
-    }
-  ],
-  "members": [
-    {
-      "id": 1,
-      "avatar_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-      "name": "Susana",
-      "email": "sus@gmail.com",
-      "birth": 581040000000,
-      "gender": "F",
-      "blood": "AB-",
-      "weight": "50",
-      "height": "150"
     }
   ],
   "member": []
