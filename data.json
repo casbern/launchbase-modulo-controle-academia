@@ -28,5 +28,39 @@
       "created_at": 1579743058197
     }
   ],
-  "member": []
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+      "name": "Nina",
+      "email": "nina@gmail.com",
+      "birth": 807580800000,
+      "gender": "F",
+      "blood": "A+",
+      "weight": "65",
+      "height": "170"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+      "name": "Arthur",
+      "email": "ta@gmail.com",
+      "birth": 894326400000,
+      "gender": "F",
+      "blood": "A+",
+      "weight": "58",
+      "height": "169"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+      "name": "Amora",
+      "email": "amor@gmail.com",
+      "birth": 936835200000,
+      "gender": "F",
+      "blood": "A+",
+      "weight": "90",
+      "height": "150"
+    }
+  ]
 }
