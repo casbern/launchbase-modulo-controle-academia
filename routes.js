@@ -18,7 +18,6 @@ routes.delete("/instructors", instructors.delete)
 
 
 routes.get('/members', members.index)
-
 routes.get('/members/create', members.create)
 routes.get('/members/:id', members.show)
 routes.get('/members/:id/edit', members.edit)
